@@ -44,4 +44,4 @@ jobs:
         with:
           images: ${{secrets.DOCKERHUB_USER}}/conversao-temperatura:${{github.run_number}}
           manifests: |
-            k8s/deployment.yaml
+            k8s/Deployment.yaml
